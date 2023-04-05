@@ -60,3 +60,37 @@ The global object is also available in all JavaScript files. You can access it b
 ```js
 console.log(global);
 ```
+
+# Process Object
+
+The process object is a global object that provides information about, and control over, the current Node.js process. It can be accessed using the `process` global variable. The process object provides a number of useful properties and methods that allow you to interact with the current process in different ways.
+
+For example, the `process.argv` property returns an array containing the command-line arguments passed when the Node.js process was launched. The first element will be `node`, the second element will be the name of the JavaScript file. The next elements will be any additional command-line arguments.
+
+```js
+console.log(process.argv);
+```
+
+While running the above code, you can pass additional command-line arguments to the process. For example, if you run the code using the following command:
+
+```bash
+node process.js one two=three four
+```
+
+You should see the following output:
+
+```bash
+[ 'node', 'process.js', 'one', 'two=three', 'four' ]
+```
+
+The `process.cwd()` method returns the current working directory of the Node.js process.
+
+```js
+console.log(`Current directory: ${process.cwd()}`);
+```
+
+The `process.platform` property returns a string identifying the operating system platform on which the Node.js process is running.
+
+```js
+console.log(`Current platform: ${process.platform}`);
+```
