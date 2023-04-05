@@ -27,3 +27,15 @@ Hello World!
 Congratulations! You have just created and run your first Node.js application.
 
 You can find the source code for this application in the `introduction\yourFirstApp` directory.
+
+# The REPL
+
+Node.js comes with a built-in REPL (Read-Eval-Print-Loop) environment that allows you to execute JavaScript code directly from the terminal. To start the REPL, simply open a terminal or command prompt and type `node`. You should see the following output:
+
+```bash
+> _
+```
+
+The REPL is a great tool for experimenting with Node.js and JavaScript. You can use it to test out new features, debug your code, and even build small applications.
+
+To exit the REPL, simply type `.exit` and press the `Enter` key.
