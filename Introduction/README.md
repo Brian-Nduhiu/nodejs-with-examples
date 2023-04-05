@@ -39,3 +39,24 @@ Node.js comes with a built-in REPL (Read-Eval-Print-Loop) environment that allow
 The REPL is a great tool for experimenting with Node.js and JavaScript. You can use it to test out new features, debug your code, and even build small applications.
 
 To exit the REPL, simply type `.exit` and press the `Enter` key.
+
+# The Global Object
+
+The global object is a special object that is available in all Node.js applications. It represents the global scope of an application and provides a number of useful features, such as the ability to access the command-line arguments, the current working directory, and the operating system platform.
+
+To access the global object, simply type `global` in the REPL. You should see the following output:
+
+```bash
+> global
+{ ArrayBuffer: [Function: ArrayBuffer],
+  Int8Array: { [Function: Int8Array] BYTES_PER_ELEMENT: 1 },
+  Uint8Array: { [Function: Uint8Array] BYTES_PER_ELEMENT: 1 },
+  ...
+  }
+```
+
+The global object is also available in all JavaScript files. You can access it by simply typing `global` in your code.
+
+```js
+console.log(global);
+```
