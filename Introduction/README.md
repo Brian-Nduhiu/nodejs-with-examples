@@ -9,3 +9,21 @@ After installation, you can verify that Node.js is working correctly by opening 
 To start building applications with Node.js, you will also need a code editor or IDE, such as Visual Studio Code, Atom, or Sublime Text. Once you have your editor set up, you can create a new project directory and start writing your first Node.js application.
 
 Overall, Node.js is a powerful tool for building scalable, efficient, and modern web applications. With its vast ecosystem of modules and tools, it provides developers with everything they need to build robust server-side applications using JavaScript.
+
+# Your first Node.js application
+
+Let's start by creating a simple Node.js application that outputs a message to the console. To do this, open your code editor and create a new file called `app.js`. In this file, add the following code:
+
+```js
+console.log("Hello World!");
+```
+
+Now, open a terminal or command prompt and navigate to the directory where you saved the `app.js` file. Once there, type `node app.js` to run the application. You should see the following output:
+
+```bash
+Hello World!
+```
+
+Congratulations! You have just created and run your first Node.js application.
+
+You can find the source code for this application in the `introduction\yourFirstApp` directory.
